@@ -1,0 +1,7 @@
+The easiest setup is to follow the following three steps.
+
+1. Copy contents of the lib folder to C:\Program Files\Microsoft Visual Studio 10.0\VC\lib - or you can change the project file to reference them.
+
+2. Copy contents of the headers folder to C:\Program Files\Microsoft Visual Studio 10.0\VC\include - or you can reference these in the project file.
+
+3. Copy contents of the dll folder to C:\WINDOWS\system32
