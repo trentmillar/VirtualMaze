@@ -15,16 +15,69 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="VirtualMaze.cpp">
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="quickcg.cpp">
+    <ClCompile Include="Mode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Runner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="quickcg.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <None Include="gamemap.dat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="obj1.pcx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="palette.lmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="w1.pcx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="w2.pcx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="w3.pcx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="w4.pcx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="e1.pcx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="f1.pcx">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
